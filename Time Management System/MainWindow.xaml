@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="109*"/>
+            <ColumnDefinition Width="182*"/>
+            <ColumnDefinition Width="109*"/>
+        </Grid.ColumnDefinitions>
+        <Image Name="BusLogo" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="66,47,0,0" VerticalAlignment="Top" Width="223" Source="/kambal pandesal.jpg"/>
+        <PasswordBox x:Name="userPassword" Width="120" Grid.Column="1" Margin="118,244,126,167" Background="WhiteSmoke" />
+
 
     </Grid>
 </Window>
